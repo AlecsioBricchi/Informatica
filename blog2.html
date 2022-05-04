@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(167, 255, 218);
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(167, 255, 218);
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: none;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.button {
+
+}
+
+</style>
+</head>
+<body>
+  
+
+<div class="header">
+  <h1>Blog</h1>
+</div>
+
+<div class="topnav">
+  <a href="https://alecsiobricchi.github.io/Informatica/index.html" target="_blank">Flip Card</a>
+  <a href="#" >Link</a>
+  <a href="#">Link</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Column</h2>
+    <img src="https://user-images.githubusercontent.com/104759715/166594101-46c16890-3d57-4c8a-bb7f-df664b501d7a.png" 
+    alt="mai-san" 
+    widgh="50" 
+    height="200" >
+  </div>
+  
+  <div class="column">
+    <h2>Column</h2>
+    <video width="400" height="160" autoplay muted loop>
+      <source src="https://user-images.githubusercontent.com/104759715/166599971-57cb0e7a-8b8c-412f-ac42-0302a5a062dc.mp4" type="video/mp4">
+      <source src="https://user-images.githubusercontent.com/104759715/166599971-57cb0e7a-8b8c-412f-ac42-0302a5a062dc.mp4" type="video/ogg">
+    </video>
+    <button class="button button2"><a href="https://alecsiobricchi.github.io/Informatica/blog.html" target="_blank">Visit my blog!</a></button>
+  </div>
+
+  <div class="column">
+    <h2>Bunny</h2>
+    <img src="https://user-images.githubusercontent.com/104759715/166525539-e6a70f3c-f242-4348-84a4-899663bb8f50.png" 
+    alt="mai-san" 
+    widgh="50" 
+    height="200" >
+    <button class="button button2"><a href="https://alecsiobricchi.github.io/Informatica/blog.html" target="_blank">Visit my blog!</a></button>
+
+  </div>
+</div>
+
+</body>
+</html>
